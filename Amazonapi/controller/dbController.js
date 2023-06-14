@@ -1,9 +1,9 @@
-let mango = require('mongodb');
-let{MongoClient} = require('mongodb');
-let(mongoUrl) = "Mongodb://127.0.0.1/27017";
-let Client = new Mongoclient(Url);
+let mongo = require('mongodb');
+const {MongoClient} = require('mongodb');
+const {Url} = "mongodb://127.0.0.1/27017";
+let Client = new MongoClient(Url);
 async function dbConnect(){
-    await client.connect()
+    await Client.connect()
 }
 
 let db = client.db('amazon');
