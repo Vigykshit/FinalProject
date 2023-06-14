@@ -1,0 +1,103 @@
+[
+    {
+        
+        "product_id": 6,
+        "product_name": "iPhone 14 Pro",
+        "category": "Mobile",
+        "category_id": 2,
+        "Price": 122999.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/wireless_products/ssserene/weblab_wf/xcm_banners_2022_in_bau_wireless_dec_580x800_v2-iphone14pro_580x800_in-en.jpg",
+        "Color": "Black",
+        "Brand": "iPhone",
+        "Filters":[
+            {
+                "Filter_id":"16" ,
+                "Filter_name":"Mobile"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ]
+        
+    },
+    {
+        "product_id": 7,
+        "product_name": "OnePlus 10R 5G",
+        "category": "Mobile",
+        "category_id": 2, 
+        "Price": 34999.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Cat/Page/Tiles/All/Brands/Bud/Mid/Premium/xcm_banners_2022_in_bau_wireless_dec_580x800-10r-v2_580x800_in-en.jpg",
+        "Color": "Green",
+        "Brand": "OnePlus",
+        "Filters":[
+            {
+                "Filter_id":"16" ,
+                "Filter_name":"mobile"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ]
+    },
+    {
+        "product_id": 8,
+        "product_name": "Xiaomi 13 Pro 5G",
+        "category": "Mobile",
+        "category_id": 2,
+        "Price": 71999.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/Xiaomi/CatPage/June/V1/xcm_banners_2022_in_bau_wireless-13pro_580x800_in-en.jpg",
+        "Color": "Gray",
+        "Brand": "Xiaomi",
+        "Filters":[
+            {
+                "Filter_id":"16" ,
+                "Filter_name":"Mobile"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ]
+    },
+    {
+        "product_id": 9,
+        "product_name": "Samsung Galaxy S22 5G",
+        "category": "Mobile",
+        "category_id": 2, 
+        "Price": 62999.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/Samsung/SamsungM/M14/GW_June/1stJune/Rv/xcm_banners_2022_in_bau_wireless_dec-s22-rv11_580x800_in-en.jpg",
+        "Color": "Matt Black",
+        "Brand": "Samsung",
+        "Filters":[
+            {
+                "Filter_id":"16" ,
+                "Filter_name":"Mobile"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ]
+    },
+    {
+        "product_id": 10,
+        "product_name": "Samsung Galaxy S20 FE 5G",
+        "category": "Mobile",
+        "category_id": 2, 
+        "Price": 34999.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/Samsung/SamsungM/M14/GW_June/1stJune/Rv/xcm_banners_2022_in_bau_wireless_dec-s22-rv11_580x800_in-en.jpg",
+        "Color": "Matt Black",
+        "Brand": "Samsung","Filters":[
+            {
+                "Filter_id":"16" ,
+                "Filter_name":"Mobile"
+            },
+            {
+                "Filter_id":  "18" ,
+                "Filter_name":"Renewed"
+            }
+        ]
+    }
+]

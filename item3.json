@@ -1,0 +1,151 @@
+[
+    {
+        "product_id": 11,
+        "product_name": "Eye protection glasses",
+        "category": "Automative essentials",
+        "category_id": 3, 
+        "Price": 180.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/I/31hl0fmA66L._AC_SX184_.jpg",
+        "Company": "Studds" ,
+        "Filters":[
+            {
+                "Filter_id":"19" ,
+                "Filter_name":"2 Wheelers"
+            },
+            {
+                "Filter_id":  "20" ,
+                "Filter_name":"ETrade Online"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"6",
+                "Brand_name":"Studds"
+
+            }
+        ]
+    },
+    {
+        "product_id": 12,
+        "product_name": "UV protection Body cover",
+        "category": "Automative essentials",
+        "category_id": 3, 
+        "Price": 380.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/I/31EYlK22BRL._AC_SX184_.jpg",
+        "Color": "Black",
+        "Company": "Kingsway",
+        "Filters":[
+            {
+                "Filter_id":"19" ,
+                "Filter_name":"2 Wheelers"
+            },
+            {
+                "Filter_id":  "21" ,
+                "Filter_name":"Autodrome"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"7",
+                "Brand_name":"Kingsway"
+
+            }
+        ]
+    },
+    {
+        "product_id": 13,
+        "product_name": "Half Face Riding Mask",
+        "category": "Automative essentials",
+        "category_id": 3, 
+        "Price": 250.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/I/41+HjbYKDZL._AC_SX184_.jpg",
+        "Color": "Black",
+        "Company": "FLOMASTER",
+        "Filters":[
+            {
+                "Filter_id":"22" ,
+                "Filter_name":"Automotive Service"
+            },
+            {
+                "Filter_id":  "23" ,
+                "Filter_name":"ASTraders"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"8",
+                "Brand_name":"FLOMASTER"
+
+            }
+        ]
+    },
+    {
+        "product_id": 14,
+        "product_name": "Gloves",
+        "category": "Automative essentials",
+        "category_id": 3, 
+        "Price": 980.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/I/41bpLXUz90L._AC_SX184_.jpg",
+        "Color": "Red",
+        "Company": "Royal Enfield",
+        "Filters":[
+            {
+                "Filter_id":"19" ,
+                "Filter_name":"2 Wheelers"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"9",
+                "Brand_name":"Royal Enfield"
+
+            }
+        ]
+    },
+    {
+        "product_id": 15,
+        "product_name": "Engine Flush",
+        "category": "Automative essentials",
+        "category_id": 3, 
+        "Price": 180.00,
+        "Image": "https://images-eu.ssl-images-amazon.com/images/I/51N-kbH3DML._AC_SX184_.jpg",
+        "Company": "Waxpool",
+        "Filters":[
+            {
+                "Filter_id":"24" ,
+                "Filter_name":"4 Wheelers"
+            },
+            {   "Filter_id":"22" ,
+                "Filter_name":"Automotive Service"
+            },
+            {
+                "Filter_id":  "17" ,
+                "Filter_name":"New"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"10",
+                "Brand_name":"Waxpool"
+
+            }
+        ]
+        
+    }
+]

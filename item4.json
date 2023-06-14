@@ -1,0 +1,87 @@
+[
+    {
+        "product_id": 16,
+        "product_name": "Medicine",
+        "category": "Amazon Pharmacy",
+        "category_id": 4, 
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/Store-mockapr/Deskstop/Medicines_440x460.png",
+        "Filter":[
+            {
+                "Filter_id" :25,
+                "Filter_name":"Apollo Pharmacies Limited South"
+            },
+            {
+                "Filter_id" :26,
+                "Filter_name":"Include Out of Stock"
+            }
+        ]
+    },
+    {
+        "product_id": 17,
+        "product_name": "Medical Devices",
+        "category": "Amazon Pharmacy",
+        "category_id": 4, 
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/Store-mockapr/Deskstop/Medical_devices_440x460.png",
+        "Filter":[
+            {
+                "Filter_id" :27,
+                "Filter_name":"Cart2India Online"
+            },
+            {
+                "Filter_id" :26,
+                "Filter_name":"Include Out of Stock"
+            }
+        ]
+       },
+    {
+        "product_id": 18,
+        "product_name": "Pain Relief",
+        "category": "Amazon Pharmacy",
+        "category_id": 4, 
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/Store-mockapr/Deskstop/Pain_relief_440x460.png",
+        "Filter":[
+            {
+                "Filter_id" :28,
+                "Filter_name":"Vision India"
+            },
+            {
+                "Filter_id" :26,
+                "Filter_name":"Include Out of Stock"
+            }
+        ]
+    },
+    {
+        "product_id": 19,
+        "product_name": "Cough & Cold",
+        "category": "Amazon Pharmacy",
+        "category_id": 4, 
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/Store-mockapr/Deskstop/Pain_relief_440x460.png",
+        "Filter":[
+            {
+                "Filter_id" :29,
+                "Filter_name":"Fitnesgalaxy"
+            },
+            {
+                "Filter_id" :26,
+                "Filter_name":"Include Out of Stock"
+            }
+        ]
+    },
+    {
+        "product_id": 20,
+        "product_name": "Dibetic Care",
+        "category": "Amazon Pharmacy",
+        "category_id": 4, 
+        "Image": "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/Store-mockapr/Deskstop/Diabetic_care_440x460.png",
+        "Filter":[
+            {
+                "Filter_id" :30,
+                "Filter_name":"RK World Infocom Pvt Ltd"
+            },
+            {
+                "Filter_id" :26,
+                "Filter_name":"Include Out of Stock"
+            }
+        ]
+    }
+]

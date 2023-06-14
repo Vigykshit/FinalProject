@@ -1,0 +1,32 @@
+[
+    {
+        "category_id":1,
+        "category": "Smartwatch",
+        "content":"Bluetooth Calling Smartwatch starts at just ₹1,999",
+        "image":"https://ibb.co/R61pJmn"
+    },
+    {
+        "category_id":2,
+        "category":"Mobile",
+        "content":"Mobile Store Start at just ₹6999",
+        "image":"https://www.swifttechbuy.com/assets/images/banner-img.png"
+    },
+    {
+        "category_id":3,
+        "category":"AUtomotive essentials",
+        "content":"Automotive essentials | Up to 60% off",
+        "image Gallery":[
+                 "https://ibb.co/474gLzX",
+                "https://ibb.co/zNzNhCK",
+                "https://ibb.co/0sG8p7Z",
+                "https://ibb.co/c3SWfrY"
+            
+        ]
+    },
+    {
+        "category_id":4,
+        "category":"Amazon Pharmacy",
+        "content":"Amazon Pharmacy!! Just One CliCk Away",
+        "image":"https://ibb.co/ZKRLJqt"
+    }
+]

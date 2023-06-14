@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href=
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
         <link href="Amazonboot5.css" rel="stylesheet">
         
     </head>
@@ -12,7 +14,7 @@
        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="container-fluid ">
               <a class="navbar-brand" href="javascript:void(0)">
-                <img src="amazonlogo.png" alt="amazon" class="logo">
+                <img src="download.png" alt="amazon" class="logo">
               </a>
               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -21,15 +23,15 @@
                 <ul class="navbar-nav me-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      
-                     <p> select your address</p></a>
+                     <button onclick="geolocation()" class="a2" ><i class="bi bi-geo-alt-fill"></i><p id="weather"></p></button>
+                     </a>
                   </li>
                 </ul>
                 <form class="d-flex ">
                   <input class="form-control me-2 box " type="text" placeholder="search for products">
-                  <button class="btn btn-primary " type="button">Search</button>
+                  <button class="btn btn-primary " type="button"><i class="bi bi-search"></i></button>
                 </form>
-                <span class="glyphicon glyphicon-map-marker"></span>
+                <button class="btn btn-primary f2"><i class="bi bi-sun"></i></button>
                 <button type="button" class="btn btn-primary me-2">SignIn</button>
                 <button type="button" class="btn btn-primary">SignUp</button>
               </div>
@@ -41,22 +43,29 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">All</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Trending</a></li>
-                    <li><a class="dropdown-item" href="#">Digital Content And Devices</a></li>
-                    <li><a class="dropdown-item" href="#">Shop By Category</a></li>
+                       <li><a class="dropdown-item" href="#">Watch</a></li>
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fashion</a>
+                         <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Men's Cloths</a></li>
+                            <li><a class="dropdown-item" href="#">Women's Cloths</a></li>
+                            <li><a class="dropdown-item" href="#">Kid's Cloths</a></li>
+                         </ul>
+                        </li>
+                    <li><a class="dropdown-item" href="#">Automotive essentials</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Amazon miniTV</a>
+                  <a class="nav-link" href="amazonlisting.html">SmartWatch</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Best Sellers</a>
+                  <a class="nav-link" href="Amazonmobile.html">Mobiles</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Mobiles</a>
+                  <a class="nav-link" href="amazonauto.html">Auto Essentials</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Todays Deals</a>
+                  <a class="nav-link" href="amazonpharmacy.html">Amazon Pharma</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Customer Service</a>
@@ -66,14 +75,18 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Amazon Pay</a>
-                </li><li class="nav-item">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fashion </a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="#">New Releases</a>
                 </li>
               </ul>
         </nav>
         </div>
         <div class="container-fluid box2">
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+             <div id="demo" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner ">
                 <a href="#">
                 <div class="carousel-item active ">
@@ -83,48 +96,57 @@
                   <img src="background2.jpg" alt="furnitutre" class="d-block" style="width:100%">
                 </div>
                 <div class="carousel-item">
+                  <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/GW/BBS/unrec/Big-Bathroom-sale---May---Kohler-Hero_3000x1200_UnRec_1._CB587457177_.jpg" alt="furnitutre" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/Vernac/2021/Gw-Hero/Mobile_tall_Hero_revision_3000x1200._CB604857279_.jpg" alt="furnitutre" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
                   <img src="background1.jpg" alt="mobile" class="d-block" style="width:100%">
                 </div>
                 </a>
               </div>
               <button class="carousel-control-prev back" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <!-- <span class="carousel-control-prev-icon"></span> -->
               </button>
               <button class="carousel-control-next front" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <!-- <span class="carousel-control-next-icon">
-                </span> -->
+                <!-- <span class="carousel-control-next-icon"></span> -->
               </button>
               </div>
-            
-            <div class="itembox">
+             <!-- <div class="botbox"></div> -->
+             <div class="itembox">
               <div class="container">
+                <a href="amazonlisting.html"target=_blank>
               <div class="container1"> 
                 Bluetooth Calling Smartwatch starts at just ₹1,999
               </div>
               <div class="container2"> 
+                
                 <img src="container1.jpg" alt="bluetooth watch" /> 
               </div> 
-              <div class="container3">
-                <a href="#">Shop Now</a> 
+              <div class="container3 godown1">
+               <p> Shop Now</p></a> 
               </div>  
-            </div>
-            <div class="container">
-             
+             </div>
+             <div class="container">
+               <a href="Amazonmobile.html">
                 <div class="container1"> 
-                  Up to 70% off | Clearance store
+                 Mobile Store Start at just ₹6999
                 </div>
                 <div class="containerA"> 
-                  <img src="container2.jpg" alt="playstation" /> 
+                  <img src="https://www.swifttechbuy.com/assets/images/banner-img.png" alt="mobilephone" /> 
                 </div> 
                 <div class="container3">
-                  <a href="#">See more</a> 
+                  <p>See more</p></a> 
                 </div> 
+             </div>
           
-            </div>
-            <div class="container">
+             
+             <div class="container">
+              <a href="amazonauto.html">
               <div class="container1">
                 Automotive essentials | Up to 60% off
-              </div>
+              </div></a>
               <div class="autotan">
                 <figure class="auto">
                   <a href="">
@@ -165,18 +187,17 @@
             </div>
             
             <div class="container look">
-              <!-- <div class="container1">
-                Up to 50% off | Monitor blood sugar at home
-              </div>
-              <div class="containerC">
-                <img src="/Amazonboot5/images/container7.jpg" alt="pharmacy">
-              </div>
-              <div class="container3">
-                <a href="#">Visit the store</a> 
-              </div> -->
-              <button onClick="geolocation()" class="btn btn-primary">Location/Temp</button>
-              <p id="out"></p>
-              <p id="weather"></p>
+              <a href="amazonpharmacy.html">
+               <div class="container1">
+                Amazon Pharmacy!! Just One CliCk Away
+                </div>
+                <div class="container2">
+                   <img src="container7.jpg" alt="pharma">
+                </div>
+                <div class="container3 godown1">
+                <a href="#">Visit the store</a></div> 
+              </div> 
+              </a>
             </div>
             <div class="container-fluid drag">
               <a href="">
@@ -230,7 +251,6 @@
                       <img src="https://m.media-amazon.com/images/I/51SgDu27yFL._AC_SY200_.jpg" alt="furniture" class="furniture">
                     </a>
                   </div>
-                  </a>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -241,11 +261,13 @@
                 </button>
                 </div>
             </div>
-            </div>
+            
             <div class="containerimg">
-              <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" alt="vfx>"
-            </div>
+              <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" alt="vfx">
           </div>
+        
+  
+        
           <footer>
             <a href="#">
             <p class="footing">&copy; Amazon 2023</p>
@@ -303,11 +325,12 @@
                   <p class="expire">Expires: Jan 03, 2021</p>
                 </div>
               </div>
-          </div>
+            
           <script src="boot5.js"></script>
           <script>
               window.onload = loadCoupon()
           </script>
+          
             
 
          

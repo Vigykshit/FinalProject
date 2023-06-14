@@ -1,0 +1,22 @@
+.auto1{
+    height: 234px;
+}
+.auto0{
+    /* align-items: center; */
+    margin-left: 18%;
+    background-color: #fff;
+}
+.repair{
+    height: 102px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+}
+.sale{
+    text-align: left;
+    margin-top: 1%;
+    padding: 1%;
+}
+.auto4{
+    font-size: 16px;
+    font-weight: bold;
+}

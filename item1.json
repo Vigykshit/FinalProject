@@ -1,0 +1,170 @@
+[
+    {
+        "product_id": 1,
+        "product_name": "watch",
+        "category": "Smartwatch",
+        "category_id": 1,
+        "content":"Fire-Boltt Quantum Luxury Stainless Steel Design 1.28", 
+        "Price": 3500.00,
+        "Image": "https://m.media-amazon.com/images/I/71mi0VhSpbL._AC_UY327_FMwebp_QL65_.jpg",
+        "Color": "Gold",
+        "Company": "Fire-Boltt",
+        "Filters":[
+            {
+                "Filter_id":"1" ,
+                "Filter_name":" Smart Watches"
+            },
+            {
+                "Filter_id":  "2" ,
+                "Filter_name":"AMOLED"
+            },
+            {
+                "Filter_id":  "3" ,
+                "Filter_name":"Activity Tracker"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"1",
+                "Brand_name":"Fire-Boltt"
+
+            }
+        ]
+    },
+    {
+        "product_id": 2,
+        "product_name": "watch",
+        "category": "Smartwatch",
+        "category_id": 1,
+        "content":"Noise ColorFit Pulse Grand Smart Watch with 1.69",
+        "Price": 5500.00,
+        "Image": "https://m.media-amazon.com/images/I/61Q0R5cdxWL._AC_UY327_FMwebp_QL65_.jpg",
+        "Color": "Jet Black",
+        "Company": "Noise",
+        "Filters":[
+            {
+                "Filter_id":"4" ,
+                "Filter_name":" Men's Watches"
+            },
+            {
+                "Filter_id":  "5" ,
+                "Filter_name":"Digital"
+            },
+            {
+                "Filter_id":  "6" ,
+                "Filter_name":"Calorie Tracker"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"2",
+                "Brand_name":"Noise"
+
+            }
+        ]
+    },
+    {
+        "product_id": 3,
+        "product_name": "watch",
+        "category": "Smartwatch",
+        "category_id": 1,
+        "content": "beatXP Marv Neo 1.85  Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging (Iced Silver)",
+        "Price":6500.00,
+        "Image": "https://m.media-amazon.com/images/I/61uHEF2B1FL._AC_UY327_FMwebp_QL65_.jpg", 
+        "Color": "Iced Silver",
+        "company": "beatXP",
+        "Filters":[
+            {
+                "Filter_id":"7" ,
+                "Filter_name":"Men's Fashion Smartwatches"
+            },
+            {
+                "Filter_id":  "8" ,
+                "Filter_name":"LED"
+            },
+            {
+                "Filter_id":  "9" ,
+                "Filter_name":"Blood Pressure Monitor"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"3",
+                "Brand_name":"beatXP"
+
+            }
+        ]
+    },
+    {
+        "product_id": 4,
+        "product_name": "watch",
+        "category": "Smartwatch",
+        "category_id": 1,
+        "content": "boAt Xtend Smartwatch with Alexa Built-in, 1.69",
+        "Price":2500.00,
+        "Image":"https://m.media-amazon.com/images/I/617ysOitciL._AC_UY327_FMwebp_QL65_.jpg",
+        "Color": "Charcoal Black",
+        "company": "boAt",
+        "Filters":[
+            {
+                "Filter_id":"10" ,
+                "Filter_name":"Activity Tracker"
+            },
+            {
+                "Filter_id":  "11" ,
+                "Filter_name":"oLED"
+            },
+            {
+                "Filter_id":  "12" ,
+                "Filter_name":"GPS"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"4",
+                "Brand_name":"Boat"
+
+            }
+        ]
+    },
+    {
+        
+        "product_id": 5,
+        "product_name": "watch",
+        "category": "Smartwatch",
+        "category_id": 1,
+        "content": "Fire-Boltt Ninja 3 1.83",
+        "Price":1900.00,
+        "Image":"https://m.media-amazon.com/images/I/617ysOitciL._AC_UY327_FMwebp_QL65_.jpg",
+        "Color": "Beige",
+        "company": "Fire-Boltt",
+        "Filters":[
+            {
+                "Filter_id":"13" ,
+                "Filter_name":"Electronics & Gadgets"
+            },
+            {
+                "Filter_id":  "14" ,
+                "Filter_name":"LCD"
+            },
+            {
+                "Filter_id":  "15" ,
+                "Filter_name":"Heart Rate Monitor"
+            }
+        ],
+        "Brand":[
+            {
+                "Brand_id":"5",
+                "Brand_name":"Fire-Boltt"
+
+            }
+        ]
+       
+    }
+         
+
+    
+]
+    
+   
+   

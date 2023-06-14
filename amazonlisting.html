@@ -1,0 +1,479 @@
+<html>
+    <head>
+        <title>Amazon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href=
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="Amazonboot5.css" rel="stylesheet">
+        <link href="listing.css" rel="stylesheet">
+        <script src="Amazonboot5.js"></script>
+        
+    </head>
+    <body>
+       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="javascript:void(0)">
+                <img src="amazonlogo.png" alt="amazon" class="logo">
+              </a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                     <button onclick="geolocation()" class="a2" ><i class="bi bi-geo-alt-fill"></i><p id="weather"></p></button>
+                     </a>
+                  </li>
+                </ul>
+                <form class="d-flex ">
+                  <input class="form-control me-2 box " type="text" placeholder="search for products">
+                  <button class="btn btn-primary " type="button"><i class="bi bi-search"></i></button>
+                </form>
+                <button class="btn btn-primary f2"><i class="bi bi-sun"></i></button>
+                <button type="button" class="btn btn-primary me-2">SignIn</button>
+                <button type="button" class="btn btn-primary">SignUp</button>
+              </div>
+            </div>
+       </nav> 
+           <br/>
+            <nav class="navbar navbar-expand-sm box1 ">
+              <ul class="nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">All</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Trending</a></li>
+                    <li><a class="dropdown-item" href="#">Digital Content And Devices</a></li>
+                    <li><a class="dropdown-item" href="#">Shop By Category</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Amazon miniTV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Best Sellers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mobiles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Todays Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Customer Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Electronics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Amazon Pay</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fashion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">New Releases</a>
+                </li>
+                <li class="nav-item">
+                 <img src="https://m.media-amazon.com/images/G/31/IN-hq/2021/img/Mobile_Traffic_/XCM_Manual_1321458_1651511_IN_3781247_400x39_en_IN._CB655944656_.jpg" alt="shop" href="#"></a>
+                </li>
+              </ul>
+        </nav>
+        </div>
+        <div class="raw1">
+          <div class="fullpage">
+           <div class="taglist">
+             <h5>Delivery Day</h5>
+             <ul>
+             <input type="radio">Get it by Tomorrow
+             <br>
+             <input type="radio">Get it in 2 Days
+             </ul>
+             <h5>Category</h5>
+             <ul> <a href="#">
+              <li> Wearable Technology</li>
+               <li> Smart Watches</li>
+              <li>  Women's Watches</li>
+              <li>  Women's Fashion Smartwatches</li>
+               <li> Electronics & Gadgets</li>
+               <li> Activity Trackers</li>
+               <li> Men's Watches</li>
+               <li> Men's Fashion Smartwatches</li></a>
+             </ul>
+             <h5>Customer Review</h5>
+             <ul>
+              <li><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+              & Up</li>
+                
+              <li><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              & Up</li>
+              <li><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              & Up</li>
+              <li><span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              & Up</li>
+             </ul>
+             <h5>Brand</h5>
+             <ul>
+             <input type="radio">boAt
+             <br/>
+             <input type="radio">Amazfit
+             <br/>
+             <input type="radio">CrossBeats
+             <br/>
+             <input type="radio">realme
+             <br/>
+             <input type="radio">Fire-Boltt
+             <br/>
+             <input type="radio">ZEBRONICS
+             <br/>
+             <input type="radio">MARVIK
+            </ul>
+            <br/>
+            <h5>Price</h5>
+            <ul><a href="#">
+              <li>Under ₹20</li>
+              <li>₹10-₹15</li>
+              <li>₹15-₹25</li>
+              <li>₹25-₹45</li>
+              <li>Over ₹45</li></a>
+            </ul>
+            <h5>Deals & Discounts</h5>
+            <ul><a href="#">
+              <li> ₹
+                Today's Deals
+              </li></a>
+            </ul>
+            <br>
+            <h5>Computers & Accessories Brands</h5>
+            <ul>
+            <input type="radio">Made for Amazon
+            <br/>
+            <input type="radio">Top Brands</ul>
+            <h5>Display Type</h5>
+            <ul>
+            <input type="radio">AMOLED
+            <br/>
+            <input type="radio">Analog
+            <br/>
+            <input type="radio">Analog-Digital
+            <br/>
+            <input type="radio">LCD
+            <br/>
+            <input type="radio">LED
+            <br/>
+            <input type="radio">OLED
+            <br/>
+            <input type="radio">No Display
+            <br/>
+            <input type="radio">Digital
+          </ul>
+            <h5>Wearable Computer Special Features</h5>
+            <ul>
+            <input type="radio"> Activity Tracker
+            <br/>
+            <input type="radio">Alarm Clock
+            <br/>
+            <input type="radio">Blood Pressure Monitor
+            <br/>
+            <input type="radio">Calorie Tracker
+            <br/>
+            <input type="radio">Camera
+            <br/>
+            <input type="radio">GPS
+            <br/>
+            <input type="radio">Heart Rate Monitor
+            </ul>
+            <h5>Wearable Computer Band Material Type</h5>
+            <ul>
+            <input type="radio">Silicone
+            <br/>
+            <input type="radio">Stainless Steel
+            <br/>
+            <input type="radio">Faux Leather
+            <br/>
+            <input type="radio">Leather
+            <br/>
+            <input type="radio">Nylon
+            <br/>
+            <input type="radio">Polyester
+            <br/>
+            <input type="radio">Resin
+          </ul>
+            <h5>Item Shape</h5>
+            <ul>
+            <input type="radio">Oval
+            <br/>
+            <input type="radio">Rectangular
+            <br/>
+            <input type="radio">Round
+            <br/>
+            <input type="radio">Square
+          </ul>
+          <h5>Wearable Computer Operating System</h5>
+          <ul>
+            <input type="radio">Android Wear
+            <br/>
+            <input type="radio">Pebble OS
+            <br/>
+            <input type="radio">watchOS
+          </ul>
+          <h5>Compatible Phone Models</h5>
+          <ul>
+            <input type="radio">Android Devices
+            <br/>
+            <input type="radio">iOS Devices
+          </ul>
+          <h5>New Arrivals</h5>
+          <ul><a href="#">
+            <li>Last 30 days</li>
+            <li>Last 90 days</li></a>
+          </ul>
+          <h5>Discount</h5>
+          <ul><a href="#">
+            <li>10% Off or more</li>
+            <li>25% Off or more</li>
+            <li>35% Off or more</li>
+            <li>50% Off or more</li>
+            <li>70% Off or more</li></a>
+          </ul>
+           </div>
+           <div class="fullview">
+             
+              <div class="noiselogo">
+                 <img src="https://wakefit-co.s3.ap-south-1.amazonaws.com/img/rewards/noise-logo.png" class="noise" alt="logo">
+                  <h4>Upto 1.96" AMOLED Display, Bluetooth Calling </h4>
+                  <a href="#" ><h6>Shop Noise></h6></a>
+              </div>
+              <div class="viratbox">
+                
+                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/d9ef289d-6876-4b55-9961-c8f63b14348f._CR0,0,1200,628_SX507_QL70_.jpg">
+                <div class="small1">
+                  <img src="https://m.media-amazon.com/images/I/61SSVxTSs3L._SX522_.jpg" class="virat"alt="watch">
+                  <div class="small2">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>2500.00</h5>
+                    
+                     <del><sup>₹</sup>4500.00 </del>(40%off)
+                  </div>
+               </div>
+               <div class="small1">
+                 <img src="https://m.media-amazon.com/images/I/61SSVxTSs3L._SX522_.jpg" class="virat"alt="watch">
+                 <div class="small2">
+                  <p>Deal of the day</p>
+                  <h5><sup>₹</sup>4000.00</h5>
+                  <del><sup>₹</sup>8000.00 </del>(50%off)
+                </div>
+                </div>
+               <div class="small1">
+                 <img src="https://m.media-amazon.com/images/I/61SSVxTSs3L._SX522_.jpg" class="virat"alt="watch">
+                 <div class="small2">
+                  <p>Deal of the day</p>
+                  <h5><sup>₹</sup>3500.00</h5>
+                  
+                   <del><sup>₹</sup>9900.00 </del>(70%off)
+                </div>
+               </div>
+              </div>
+               <p class="res">Results</p>
+              <div class="watchrate">
+                
+                <img src="https://m.media-amazon.com/images/I/71mi0VhSpbL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <a href="#">
+                <p class="watch1">Fire-Boltt Quantum Luxury Stainless Steel Design 1.28" Bluetooth Calling Smartwatch with High Resolution of 240 * 240 Px & TWS Connection, SpO2 Tracking with 100 Sports Modes (Sapphire Gold)</p>            
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <div class="small3">
+                  <p>Deal of the day</p>
+                  <h5><sup>₹</sup>3500.00</h5>
+                  <del><sup>₹</sup>9900.00 </del>(70%off)
+                </div>
+                <p> Get it by Friday,
+                  FREE Delivery by Amazon</p>
+              </div>
+              </a>
+              </div>
+              <div class="watchrate">
+                <img src="https://m.media-amazon.com/images/I/61Q0R5cdxWL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <a href="#">
+                  <p class="watch1">Noise ColorFit Pulse Grand Smart Watch with 1.69"(4.29cm) HD Display, 60 Sports Modes, 150 Watch Faces, Fast Charge, Spo2, Stress, Sleep, Heart Rate Monitoring & IP68 Waterproof (Jet Black)</p>            
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="small3">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>5500.00</h5>
+                    <del><sup>₹</sup>9900.00 </del>(Upto 50%off)
+                  </div>
+                  <p> Get it by Friday,
+                    FREE Delivery by Amazon</p></a>
+                </div>
+              </div> 
+              <div class="watchrate">
+                <a href="order.html">
+                <img src="https://m.media-amazon.com/images/I/61uHEF2B1FL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <p class="watch1">beatXP Marv Neo 1.85'' Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging (Iced Silver)</p>            
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="small3">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>6500.00</h5>
+                    <del><sup>₹</sup>12900.00 </del>(50%off)
+                  </div>
+                  <p> Get it by Friday,
+                    FREE Delivery by Amazon</p></a>
+                </div>
+              </div>
+              <div class="watchrate">
+                <img src="https://m.media-amazon.com/images/I/617ysOitciL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <a href="#">
+                  <p class="watch1">boAt Xtend Smartwatch with Alexa Built-in, 1.69” HD Display, Multiple Watch Faces, Stress Monitor, Heart & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor, 5 ATM & 7 Days Battery(Charcoal Black)</p>            
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="small3">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>2500.00</h5>
+                    <del><sup>₹</sup>5900.00 </del>(60%off)
+                  </div>
+                  <p> Get it by Friday,
+                    FREE Delivery by Amazon</p></a>
+                </div>
+              </div>
+              <div class="watchrate">
+                <img src="https://m.media-amazon.com/images/I/61TlgEodcGL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <a href="#">
+                  <p class="watch1">Fire-Boltt Ninja 3 1.83" Display Smartwatch Full Touch with 100+ Sports Modes with IP68, Sp02 Tracking, Over 100 Cloud Based Watch Faces (Beige)</p>            
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="small3">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>1900.00</h5>
+                    <del><sup>₹</sup>9900.00 </del>(80%off)
+                  </div>
+                  <p> Get it by Friday,
+                    FREE Delivery by Amazon</p></a>
+                </div>
+              </div>
+              <div class="watchrate">
+                <img src="https://m.media-amazon.com/images/I/61H5PEqBBAL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <a href="#">
+                  <p class="watch1">boAt Wave Call Smart Watch, Smart Talk with Advanced Dedicated Bluetooth Calling Chip, 1.69 HD Display with 550 NITS & 70% Color Gamut, 150+ Watch Faces, Multi-Sport Modes,HR,SpO2, IP68(Active Black)</p>            
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="small3">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>1350.00</h5>
+                    <del><sup>₹</sup>1990.00 </del>(25%off)
+                  </div>
+                  <p> Get it by Friday,
+                    FREE Delivery by Amazon</p></a>
+                </div>
+              </div>
+              <div class="watchrate">
+                <img src="https://m.media-amazon.com/images/I/61V-uzan3wL._AC_UY327_FMwebp_QL65_.jpg" alt="watch" class="menu22">
+                <div class="watchmenu">
+                  <a href="#">
+                  <p class="watch1">Noise Pulse 2 Max 1.85" Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women (Deep Wine)</p>            
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star checked"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="small3">
+                    <p>Deal of the day</p>
+                    <h5><sup>₹</sup>3500.00</h5>
+                    <del><sup>₹</sup>6900.00 </del>(50%off)
+                  </div>
+                  <p> Get it by Friday,
+                    FREE Delivery by Amazon</p></a>
+                </div>
+              </div>
+              <div class="container-fluid fluid">
+                <video src="https://aax-eu.amazon.in/x/c/ROTaoVUIRgC_Nof0Rh8PXYUAAAGIcVnjowMAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBmyWh1/https://www.amazon.in/dp/B0B854R7NS?pd_rd_i=B0B854R7NS&pf_rd_p=bb07d3e1-4df6-48c1-9e83-7a3205f60b8a&pf_rd_r=GDHBBAATJ59H66XRZV31&pd_rd_wg=0wuTp&pd_rd_w=tJTWw&pd_rd_r=fa3c2687-2061-4008-9123-86e6179be39b" alt="video"></video>
+              </div>
+             
+           </div>
+          </div>
+       </div> 
+        <footer>
+            <a href="#">
+            <p class="footing">&copy; Amazon 2023</p>
+            <div id="naam">
+                Amazon
+            </div>
+            <div class="aboutamazon">
+                About Amazon
+                <ul class="foottext">
+                    <li>Who we are</li>
+                    <li>Blog</li>
+                    <li>Work with us</li>
+                    <li>Report fraud</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="aboutamazon">
+                Learn More
+                <ul class="foottext">
+                    <li>Privacy</li>
+                    <li>Security</li>
+                    <li>Term</li>
+                    <li>Sitemap</li>
+                    <li>Feeding india</li>
+                </ul>
+            </div>
+            <div class="aboutamazon">
+                Social Links
+                <ul>
+                    <div class="footlink">
+                        <img src="facebook1.png" alt="facebook" class="footlink"></li>
+                        <img src="insta2.png" alt="instagram" class="footlink"></li>
+                        <img src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc" alt="youtube" class="footlink"></li>
+                        <li> <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="apple store" class="footlink"></li>
+                        <li> <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="android store" class="footlink"></li>
+                    </div>
+                </ul>
+            </div>
+            </a>
+          </footer>
