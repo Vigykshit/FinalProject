@@ -1,12 +1,12 @@
 let mongo = require('mongodb');
 const {MongoClient} = require('mongodb');
-const {Url} = "mongodb://127.0.0.1/27017";
-let Client = new MongoClient(Url);
+const url = "mongodb://127.0.0.1/27017";
+let Client = new MongoClient(url);
 async function dbConnect(){
     await Client.connect()
 }
 
-let db = client.db('amazon');
+let db = Client.db('amazon');
 
 async function getData(colName,query){
     let output = [];
