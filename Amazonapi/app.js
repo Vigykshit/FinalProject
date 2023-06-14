@@ -1,13 +1,13 @@
 let express = require('express');
 let app = express();
 let port = 9120;
-let {dbConnect,db} = require('./controller/dbController');
-const { LOADIPHLPAPI } = require('dns');
+//let {dbConnect,db} = require('./controller/dbController');
+
 app.get('/',(req,res)=>{
     res.send('we are using amazonapi')
 })
 
-app.get('/category',(req,res)=>{LOADIPHLPAPI
+app.get('/category',(req,res)=>{
     res.send('we are using amazonapi now use Amazon')
 })
 
