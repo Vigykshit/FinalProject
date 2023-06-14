@@ -1,7 +1,8 @@
 let express = require('express');
 let app = express();
 let port = 9120;
-//let {dbConnect,db} = require('./controller/dbController');
+
+let {dbConnect,db} = require('./controller/dbController');
 
 app.get('/',(req,res)=>{
     res.send('we are using amazonapi')
