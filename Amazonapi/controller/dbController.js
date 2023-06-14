@@ -1,5 +1,5 @@
-let mango = require('./mongodb');
-let{MongoClient} = require('./mongodb');
+let mango = require('mongodb');
+let{MongoClient} = require('mongodb');
 let(mongoUrl) = "Mongodb://127.0.0.1/27017";
 let Client = new Mongoclient(Url);
 async function dbConnect(){
