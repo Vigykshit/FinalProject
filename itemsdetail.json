@@ -1,9 +1,26 @@
 [
     {
-        "product_id": 3,
+        "product_id": 1,
         "product_name": "watch",
-        "Ratings":4.2,
-        "Model Name":"Marv Neo",
+        "Ratings":3.9,
+        "Model Name":"Quantum",
+        "price":3500,
+        "image Gallery":[
+            
+              "https://m.media-amazon.com/images/I/71mi0VhSpbL._SX679_.jpg",
+               "https://m.media-amazon.com/images/I/81WhAh6FeZL._SX679_.jpg",
+              "https://m.media-amazon.com/images/I/71D1gFuvcAL._SX679_.jpg",
+              "https://m.media-amazon.com/images/I/710ch6+DskL._SX679_.jpg" ,
+              "https://m.media-amazon.com/images/I/71h6N54PmKL._SX679_.jpg"
+            
+        ]
+    },
+    {
+        "product_id": 2,
+        "product_name": "watch",
+        "Ratings":4.1,
+        "Model Name":"Pulse Grand",
+        "price":5500,
         "image Gallery":[
             
               "https://m.media-amazon.com/images/I/61eq73o4VaL._SX522_.jpg",
@@ -19,6 +36,7 @@
         "product_name": "watch",
         "Ratings":4.2,
         "Model Name":"Marv Neo",
+        "price":6500,
         "image Gallery":[
             
               "https://m.media-amazon.com/images/I/61eq73o4VaL._SX522_.jpg",
@@ -30,10 +48,11 @@
         ]
     },
     {
-        "product_id": 3,
+        "product_id": 4,
         "product_name": "watch",
-        "Ratings":4.2,
-        "Model Name":"Marv Neo",
+        "Ratings":4.4,
+        "Model Name":"Extend",
+        "price":2500,
         "image Gallery":[
             
               "https://m.media-amazon.com/images/I/61eq73o4VaL._SX522_.jpg",
@@ -45,25 +64,11 @@
         ]
     },
     {
-        "product_id": 3,
+        "product_id": 5,
         "product_name": "watch",
-        "Ratings":4.2,
-        "Model Name":"Marv Neo",
-        "image Gallery":[
-            
-              "https://m.media-amazon.com/images/I/61eq73o4VaL._SX522_.jpg",
-               "https://m.media-amazon.com/images/I/71P5XNXbOcL._SX522_.jpg",
-              "https://m.media-amazon.com/images/I/71AiRsCRgvL._SX522_.jpg",
-              "https://m.media-amazon.com/images/I/71VDF7FjjrL._SX522_.jpg" ,
-              "https://m.media-amazon.com/images/I/71D8Spp78RL._SX522_.jpg"
-            
-        ]
-    },
-    {
-        "product_id": 3,
-        "product_name": "watch",
-        "Ratings":4.2,
-        "Model Name":"Marv Neo",
+        "Ratings":4.5,
+        "Model Name":"Ninja",
+        "price":1900,
         "image Gallery":[
             
               "https://m.media-amazon.com/images/I/61eq73o4VaL._SX522_.jpg",

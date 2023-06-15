@@ -1,12 +1,13 @@
 let mongo = require('mongodb');
-const {MongoClient} = require('mongodb');
-const url = "mongodb://127.0.0.1/27017";
-let Client = new MongoClient(url);
+let {MongoClient} = require('mongodb');
+let mongoUrl= "mongodb+srv://projectAmazon:qYlDdRXfhoDkFlSA@cluster1amazon.f7agszm.mongodb.net/?retryWrites=true&w=majority";
+let client = new MongoClient(mongoUrl)
+
 async function dbConnect(){
-    await Client.connect()
+    await client.connect()
 }
 
-let db = Client.db('amazon');
+let db = client.db('AmazonApi');
 
 async function getData(colName,query){
     let output = [];
@@ -21,7 +22,29 @@ async function getData(colName,query){
     }
     return output
 }
+async function postData(colName,data){
+    let output;
+    try{
+        output = await db.collection(colName).insertOne(data)
+    }
+    catch(err){
+        output = {"response":"Error in postData"}
+    }
+    return output
+}
+
+async function updateOrder(colName,condition,data){
+    let output;
+    try{
+        output = await db.collection(colName).updateOne(condition,data)
+    } catch(err){
+        output = {"response":"Error in update data"}
+    }
+    return output
+}
+
 module.exports = {
     dbConnect,
     getData,
+    postData,
 }
